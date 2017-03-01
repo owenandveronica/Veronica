@@ -1,0 +1,67 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #efefef;
+}
+.container {
+  width: 1024px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container > .banner {
+  width: 100%;
+  height: 100px;
+  background-color: #e4e4e4;
+}
+.container > .login {
+  margin: 100px auto 0 auto;
+  height: 350px;
+  width: 300px;
+  opacity: 0.5;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid rgb(156, 165, 189);
+  position: relative;
+}
+.container .prompt {
+  position: absolute;
+  width: 350px;
+  background-color: #e4e4e4;
+  height: 150px;
+  text-align: center;
+  line-height: 150px;
+  font-size: 30px;
+  border: 1px solid black;
+  top: 126px;
+  left: -6px;
+  z-index: 100;
+  display: none;
+}
+.container .portrait {
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container .typein {
+  width: 100%;
+  height: 65px;
+  line-height: 65px;
+}
+.container .typein input {
+  width: 280px;
+  height: 40px;
+  border: 1px solid rgb(156, 165, 189);
+  background-color: rgb(249, 255, 172);
+  padding: 0 10px;
+  font-size: 16px;
+}
+.login button {
+  width: 300px;
+  height: 40px;
+  border: 1px solid rgb(156, 165, 189);
+  font-size: 18px;
+}
